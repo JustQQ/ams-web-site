@@ -20,8 +20,7 @@ export default defineConfig({
     strictPort: true,
     port: 5173,
     hmr: {
-        host: 'vue-web',
-        port: 5173,
+        host: 'localhost',
     },
   },
 })
